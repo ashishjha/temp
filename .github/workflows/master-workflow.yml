@@ -87,4 +87,5 @@ jobs:
          -s .maven/settings.xml \
          -DskipTests \
          -DskipDeploymentVerification="true"\
-         -Denv="Production"
+         -Denv="Production" \
+         -Dapp.name="ashish-prod-temp-project-v1"
