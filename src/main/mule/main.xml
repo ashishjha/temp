@@ -28,7 +28,7 @@ var myDtae = now()>> "IST"
 {
 	"correlationId": correlationId,
 	"Status": "Success",
-	"message": "Response from demo-project app",
+	"message": "Response from temp-project app",
 	"timestamp": myDtae as String {format: "KK:mm:ss a, MMMM dd, uuuu"}
 }]]></ee:set-payload>
 			</ee:message>
