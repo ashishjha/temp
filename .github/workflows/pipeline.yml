@@ -4,7 +4,14 @@ name: Build and Deploy to Sandbox
 
 on:
   push:
-    branches: [ main ]
+    branches:
+      - main
+    
+  pull_request:
+    types:
+      - opened
+      - synchronize
+      
   workflow_dispatch:
     
 jobs:
