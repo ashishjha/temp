@@ -114,4 +114,5 @@ jobs:
          -s .maven/settings.xml \
          -DskipTests \
          -DskipDeploymentVerification="true" \
-         -Denv="Sandbox"
+         -Denv="Sandbox" \
+         -Dapp.name="ashish-temp-project-v1"
