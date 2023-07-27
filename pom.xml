@@ -4,7 +4,7 @@
 
 	<groupId>4e7d228f-0c51-47e5-9580-7bd4ef8787be</groupId>
 	<artifactId>temp-project</artifactId>
-	<version>1.0.5</version>
+	<version>1.0.6</version>
 	<packaging>mule-application</packaging>
 
 	<name>temp-project</name>
@@ -37,7 +37,7 @@
 						<target>Cloudhub-US-East-2</target>
 						<muleVersion>4.4.0</muleVersion>
 						<server>ca.anypoint.credentials</server>
-						<applicationName>ashish-temp-project-v1</applicationName>
+						<applicationName>${app.name}</applicationName>
 						<replicas>1</replicas>
 						<vCores>0.1</vCores>
 						<skipDeploymentVerification>${skipDeploymentVerification}</skipDeploymentVerification>
