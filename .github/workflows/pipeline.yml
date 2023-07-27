@@ -114,3 +114,4 @@ jobs:
          -s .maven/settings.xml \
          -DskipTests \
          -DskipDeploymentVerification="true"
+         -Denv="Sandbox"
