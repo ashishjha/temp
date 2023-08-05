@@ -4,7 +4,7 @@
 
 	<groupId>4e7d228f-0c51-47e5-9580-7bd4ef8787be</groupId>
 	<artifactId>temp-project</artifactId>
-	<version>1.0.6</version>
+	<version>1.0.7</version>
 	<packaging>mule-application</packaging>
 
 	<name>temp-project</name>
@@ -55,7 +55,7 @@
 	</build>
 	<distributionManagement>
 		<repository>
-			<id>ca.anypoint.credentials</id>
+			<id>Repository</id>
 			<name>Corporate Repository</name>
 			<url>https://maven.anypoint.mulesoft.com/api/v2/organizations/${project.groupId}/maven</url>
 			<layout>default</layout>
